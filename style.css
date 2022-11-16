@@ -1,0 +1,150 @@
+/* Colors and fonts */
+body{
+	background: #557153;
+	color: rgb(58, 136, 145);
+	font-family: 'BioRhyme', serif;
+	font-weight: 400;
+	font-size: 25px;
+}
+h1, h2, h3 {
+	font-family: 'Ultra', serif;
+}
+h1{
+	color: #D33F49;
+	font-size: 32px;
+	font-weight: 900;
+}
+h2{
+	color: #2F9C95;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+a {
+	font-family: 'Rubik Bubbles', cursive;
+	text-decoration: none;
+	color: rgb(37, 109, 133);
+	font-weight: 400;
+}
+a:hover {
+	color:rgb(92, 46, 126);
+	cursor: pointer;
+}
+
+div {
+	background: #7D8F69;
+    border: 2px solid black;
+    margin: 120px;
+    padding: 30px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 5px
+}
+
+
+/*Custom design with class*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 960px) {
+	.container{
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container{
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container{
+		width: 300px;
+	}
+}
+
+
+
+
+
+
+.card-designer {
+	background-color: #A9AF7E;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+
+	}
+
+
+
+#map {
+	border-radius: 25%;
+	border: 3px solid blue;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img-circle {
+	border-radius: 50%;
+	border: 10px solid; black;
+}
+.btn-blue {
+	background-color: rgb(58, 136, 145);
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: #3B3486;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+	font-size: 50px;
+	color: #3B3486;
+}
+
+#introduction p {
+	margin-bottom: 42px;
+}
+
+.img-circle:hover{
+-ms-transform: scale(1.5); 
+-webkit-transform: scale(1.5); 
+transform: scale(1.5);
+}
+
+.img-circle {
+	width: 200px;
+	transition: transform .1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
